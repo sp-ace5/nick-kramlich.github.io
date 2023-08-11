@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    background-color:blue
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.site-header {
+    color: #fff;
+    padding: 20px 0;
+    top: 0;
+    z-index: 1;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+.section {
+    min-height: 100vh;
+    overflow-y: auto;  
+}
+
+.background-image {
+    background: url('/portfolio/images/background3.jpg'); 
+    background-size: cover;
+    height: 100vh;
+}
+
+#portfolio {
+    /* background: url('/portfolio/images/background2.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+}
+
+#about {
+    /* background: url('/portfolio/images/background3.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+}
+
+#contact {
+    /* background: url('/portfolio/images/background4.jpg'); */
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: xx-large;
+}
+
